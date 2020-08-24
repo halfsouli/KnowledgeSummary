@@ -735,8 +735,8 @@ getArea(){
 ### 3. 类的装饰器
 <a name="JJgKp"></a>
 #### 3.1 如何写一个装饰器
-通过`@`符号来使用,不能直接使用装饰器，在标准里面属于实验性质的语法，需要在 tsconfig.json 文件中把配置项打开<br />![dVk0FP.png](https://s1.ax1x.com/2020/08/16/dVk0FP.png)<br />
-![dVkBJf.png](https://s1.ax1x.com/2020/08/16/dVkBJf.png)
+通过`@`符号来使用,不能直接使用装饰器，在标准里面属于实验性质的语法，需要在 tsconfig.json 文件中把配置项打开<br />![dVk0FP.png](https://github.com/halfsouli/KnowledgeSummary/blob/master/images/1.png)<br />
+![dVkBJf.png](https://github.com/halfsouli/KnowledgeSummary/blob/master/images/2.png)
 ```typescript
 function testDecorator(constructor:any){
   constructor.prototype.getName = () =>{
@@ -942,13 +942,13 @@ export default {
 ```
 <a name="k3nBH"></a>
 ### 3.项目地址
-项目跟着TS+Vue.js视频写的一个标签应用，对新手非常友好，强烈推荐小伙伴去看~<br />功能：对标签添加删除分类修改<br />![dVe3KU.png](https://s1.ax1x.com/2020/08/16/dVe3KU.png)<br />感兴趣的可以点击这[项目链接](https://gitee.com/halfsouli/vue-ts-tag)查看 
+项目跟着TS+Vue.js视频写的一个标签应用，对新手非常友好，强烈推荐小伙伴去看~<br />功能：对标签添加删除分类修改<br />![dVe3KU.png](https://github.com/halfsouli/KnowledgeSummary/blob/master/images/t-3.png)<br />感兴趣的可以点击这[项目链接](https://gitee.com/halfsouli/vue-ts-tag)查看 
 <a name="iw5dK"></a>
 ### 4.了不起的 tsconfig.json 指南
   写项目的时候没有太关注这边,所以贴大佬链接,想看的小伙伴转场啦~
   [了不起的 tsconfig.json 指南](https://juejin.im/post/6844904178234458120)<br />
 # 叨叨时间
-学习时间大概花了4天左右，前面一部分时间自己的注意力非常不集中，一会看TS，又一会看其他的知识点，导致浪费了挺多时间的，非常没有效率QAQ ，童鞋们要以此为戒，集中时间，规划模块学习~<br />第一次写这么长的文章，太难了，不知道有没有捡到了我的肝，麻烦请还给我，蟹蟹~<br />作为一个资深注水大师，技术菜的抠脚贴图仔，放以前绝对不会相信我能写这么长，以前最多贴贴代码，加几行字完事了<br />[![dVEtUI.th.jpg](https://s1.ax1x.com/2020/08/16/dVEtUI.th.jpg)](https://imgchr.com/i/dVEtUI)<br />就是面试很尴尬，放自己博客吧，的放在犄角旮旯里，太水了，怕被喷哈哈哈。要是不放吧，又不甘心，就是这么的矛盾。<br />非常感谢阿宝哥和师父的指引，洗心革面，争取以后不那么注水了~ 。<br />
+学习时间大概花了4天左右，前面一部分时间自己的注意力非常不集中，一会看TS，又一会看其他的知识点，导致浪费了挺多时间的，非常没有效率QAQ ，童鞋们要以此为戒，集中时间，规划模块学习~<br />第一次写这么长的文章，太难了，不知道有没有捡到了我的肝，麻烦请还给我，蟹蟹~<br />作为一个资深注水大师，技术菜的抠脚贴图仔，放以前绝对不会相信我能写这么长，以前最多贴贴代码，加几行字完事了<br />[![dVEtUI.th.jpg]https://github.com/halfsouli/KnowledgeSummary/blob/master/images/t-4.png)](https://imgchr.com/i/dVEtUI)<br />就是面试很尴尬，放自己博客吧，的放在犄角旮旯里，太水了，怕被喷哈哈哈。要是不放吧，又不甘心，就是这么的矛盾。<br />非常感谢阿宝哥和师父的指引，洗心革面，争取以后不那么注水了~ 。<br />
 点个赞再走吧~~₍₍Ϡ(੭•̀ω•́)੭✧⃛
 <a name="nZCgf"></a>
 # 参考文章
