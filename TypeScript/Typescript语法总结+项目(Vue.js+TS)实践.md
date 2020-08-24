@@ -4,7 +4,7 @@
 <br />**个人学习的过程** ：<br />阿宝哥的[1.2W字 | 了不起的 TypeScript 入门教程](https://juejin.im/post/6844904182843965453),配合了部分视频食用,最后对知识点系统梳理了一遍<br />慕课网typescript入门视频，主要看一部分语法视频 <br />项目撸的是b站的 Vue.js+TS 项目(对新手非常友好,1小时写完一个项目哈哈哈，项目涉及的内容还是比较全面的)
 <a name="QMFGj"></a>
 # 语法篇
-![dVk8zD.jpg](https://s1.ax1x.com/2020/08/16/dVk8zD.jpg)<br />
+![dVk8zD.jpg](https://github.com/halfsouli/KnowledgeSummary/blob/master/images/dVk8zD.jpg)<br />
 
 <a name="wda3Z"></a>
 ## 一、基本类型
