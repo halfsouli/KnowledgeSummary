@@ -1,0 +1,9 @@
+.active{
+    color: pink;
+}
+#box{
+    background: wheat;
+}
+.hide{
+    display: none;
+}

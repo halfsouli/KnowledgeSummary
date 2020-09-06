@@ -1,0 +1,311 @@
+{
+    "status": 0,
+    "data": {
+        "films": [{
+            "filmId": 4645,
+            "name": "尺八·一声一世",
+            "poster": "https://pic.maizuo.com/usr/movie/c24fc5d02fa8df65456ee2a54d677e59.jpg",
+            "actors": [{
+                "name": "聿馨 ",
+                "role": "导演",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/c069afb64958d8eb1cbb57d822f5dbcb.jpg"
+            }, {
+                "name": "佐藤康夫",
+                "role": " 自己",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/f74cc4cacecf974cde84b51e86413471.jpg"
+            }, {
+                "name": "小凑昭尚",
+                "role": " 自己",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/c7625ccc266ba4dc305e8f27d257044c.jpg"
+            }],
+            "director": "聿馨",
+            "category": "纪录片",
+            "synopsis": "本片通过记录中国，日本，美国等地的尺八演奏家，制管师，学习者的生活，去见证在尺八之路上行走着的人们，通过他们不同阶段的经历与思考，折射出来古老的尺八在当下的困境与希望，也通过尺八去映照出每个人对生活，生命，世界的认知与感悟。　　尺八，由竹子根部制成的管状乐器，因管长一尺八寸得名。尺八源于中国，在南宋时期传至日本发展至今，成为日本传统乐器的代表；而在中国，尺八却日渐式微。20世纪末期，随着中日民间的文化交流活动的增加，尺八重新回到中国人的视野。",
+            "filmType": {
+                "name": "2D",
+                "value": 1
+            },
+            "nation": "中国大陆",
+            "language": "汉语普通话   日语 ",
+            "videoId": "",
+            "premiereAt": 1556668800,
+            "timeType": 2,
+            "runtime": 90,
+            "grade": "7.1",
+            "item": {
+                "name": "2D",
+                "type": 1
+            },
+            "isPresale": true,
+            "isSale": false
+        }, {
+            "filmId": 4366,
+            "name": "大闹西游",
+            "poster": "https://pic.maizuo.com/usr/movie/92c2f2c4348d5978c2160c75dfd94198.jpg",
+            "actors": [{
+                "name": "孙晔",
+                "role": "孙悟空",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/53d5b2b8a2b36b923a9342ca2ad3d0ed.jpg"
+            }, {
+                "name": "刘北辰",
+                "role": "牛魔王",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/3ba4faa6ece32b59f53e122c0583f7c2.jpg"
+            }, {
+                "name": "沈达威",
+                "role": "孙伍元",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/8315006945affc3507e8434a1cef9b67.jpg"
+            }, {
+                "name": "陶典",
+                "role": "琪琪",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/e28d5978f53af6d4260be265da3e71cc.jpg"
+            }],
+            "director": "马系海",
+            "category": "喜剧|动画|冒险",
+            "synopsis": "玩具孙五元自认是美猴王，却因拿不出金箍棒在玩具世界饱受嘲笑。机缘巧合之下，孙五元只身一人进入了西游世界，并偶遇被赶回花果山的孙悟空。一心想要金箍棒的孙五元死缠烂打，孙悟空无奈提出条件：孙五元要拜其为师，学成后就把金箍棒给他。不料牛魔王暗中挑拨，唆使五元偷走了金箍棒，并将其抢走。慌忙逃回玩具世界的五元发现，世界已被牛所统治……",
+            "filmType": {
+                "name": "2D",
+                "value": 1
+            },
+            "nation": "中国大陆",
+            "language": "汉语普通话",
+            "videoId": "XMzc2Njk4NTIxNg==",
+            "premiereAt": 1537574400,
+            "timeType": 3,
+            "runtime": 100,
+            "grade": "7.3",
+            "item": {
+                "name": "2D",
+                "type": 1
+            },
+            "isPresale": true,
+            "isSale": false
+        }, {
+            "filmId": 4836,
+            "name": "紧急救援",
+            "poster": "https://pic.maizuo.com/usr/movie/c14a70858e2bda9c2bc8eaa7bfa0e2aa.jpg",
+            "actors": [{
+                "name": "林超贤",
+                "role": "导演",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/45deca0f886633f1a8902f7eece4248a.jpg"
+            }, {
+                "name": "辛芷蕾",
+                "role": "方宇凌",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/ff8f5bfd455e660298452c0546bb23d5.jpg"
+            }, {
+                "name": "蓝盈莹",
+                "role": "演员",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/f27b94579d10d3131b476ec6c63a2722.jpg"
+            }, {
+                "name": "彭于晏",
+                "role": "高谦",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/0a30de65731f3ddc5ce5d5915c8d9d49.jpg"
+            }, {
+                "name": "王彦霖",
+                "role": "赵呈",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/728944e292dc6e8161acd7d5344d361c.jpg"
+            }],
+            "director": "林超贤",
+            "category": "剧情|灾难",
+            "synopsis": "《紧急救援》是由林超贤导演，彭于晏、王彦霖、辛芷蕾、蓝盈莹出演的中国首部海上救援打捞题材的作品。筹备过程中，导演林超贤带领团队实地勘察选址，力求打造更劲爆，更震撼的场景设置，本次与奥斯卡最佳摄影鲍德熹，《泰坦尼克号》美术指导Martin Laing等国际顶级制作团队的强强联合，预示着电影将成为首部打开国际市场的华语救援题材作品，也势必会成为又一部华语电影的标杆之作。",
+            "filmType": {
+                "name": "2D",
+                "value": 1
+            },
+            "nation": "中国大陆",
+            "language": "汉语普通话",
+            "videoId": "XNDIyODM2NjE4OA==",
+            "premiereAt": 1579910400,
+            "timeType": 3,
+            "runtime": 100,
+            "grade": "7.8",
+            "item": {
+                "name": "2D",
+                "type": 1
+            },
+            "isPresale": true,
+            "isSale": false
+        }, {
+            "filmId": 4920,
+            "name": " 叶问4：完结篇",
+            "poster": "https://pic.maizuo.com/usr/movie/c14daaf24fc50c767f5c067f2c05316b.jpg",
+            "actors": [{
+                "name": "叶伟信",
+                "role": "导演",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/0e3ed2b5d2897d3fd2423176468ffce9.jpg"
+            }, {
+                "name": "甄子丹",
+                "role": "演员",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/376e28f22c81a33c0629d6cd43364c18.jpg"
+            }, {
+                "name": "陈国坤",
+                "role": "演员",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/e7ce478afd0a9fdfe0c7c59331d9cf23.jpg"
+            }, {
+                "name": "吴樾",
+                "role": "演员",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/30da6c2351f1d46b129ca0b2fcf8b5e3.jpg"
+            }, {
+                "name": "斯科特·阿金斯",
+                "role": "演员",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/660b52b44aabd58c18866700420f0daa.jpg"
+            }],
+            "director": "叶伟信",
+            "category": "动作|传记|历史",
+            "synopsis": "因故来到美国唐人街的叶问，意外卷入一场当地军方势力与华人武馆的纠纷，面对日益猖狂的民族歧视与压迫，叶问挺身而出，在美国海军陆战队军营拼死一战，以正宗咏春，向世界证明了中国功夫。",
+            "filmType": {
+                "name": "2D",
+                "value": 1
+            },
+            "nation": "中国香港",
+            "language": "",
+            "videoId": "",
+            "premiereAt": 1576800000,
+            "timeType": 3,
+            "runtime": 0,
+            "grade": "7.2",
+            "item": {
+                "name": "2D",
+                "type": 1
+            },
+            "isPresale": true,
+            "isSale": false
+        }, {
+            "filmId": 4721,
+            "name": "潜行者",
+            "poster": "https://pic.maizuo.com/usr/movie/cf0ec2b6f4136a2df2bf735551c656ae.jpg",
+            "actors": [{
+                "name": "周冠南",
+                "role": "导演",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/a938a313359ccf3e246ee934e72b621b.jpg"
+            }, {
+                "name": "谭广源",
+                "role": "导演",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/3674f211be7a816037753e1e0f812f0e.jpg"
+            }, {
+                "name": "安志杰",
+                "role": "夏乾坤",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/21066fde666c937526423036e08f024b.jpg"
+            }, {
+                "name": "吴建豪",
+                "role": "侯虎",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/33c65372b4d87d92a8c514629b11d0a9.jpg"
+            }, {
+                "name": "伍允龙",
+                "role": "小伍",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/43dc266fa6bafe6dc185317fc479fd10.jpg"
+            }],
+            "director": "吕冠南 谭广源",
+            "category": "动作|犯罪|喜剧",
+            "synopsis": "故事开始于卧底警察潜伏黑帮，意外的坐上了黑帮老大的位置，不料被大毒枭设计一步步拖入公海的魔鬼运输船；恰逢此时，一支神秘的第三方部队正在展开他们的复仇计划，命运的纠葛从此开始。在三方力量的角逐中，激烈的搏斗、刀战、枪战、狙击战、遥控炸弹，层层升级步步惊心。在法与情，爱与恨，兄弟和女人之间，有些事情总要有人去做。",
+            "filmType": {
+                "name": "2D",
+                "value": 1
+            },
+            "nation": "中国大陆 中国香港",
+            "language": "汉语普通话",
+            "videoId": "",
+            "premiereAt": 1561680000,
+            "timeType": 3,
+            "runtime": 90,
+            "grade": "7.1",
+            "item": {
+                "name": "2D",
+                "type": 1
+            },
+            "isPresale": true,
+            "isSale": false
+        }, {
+            "filmId": 4991,
+            "name": "误杀",
+            "poster": "https://pic.maizuo.com/usr/movie/cab3e17b2d0e7731e04c6e76c0e2866f.jpg",
+            "actors": [{
+                "name": "柯汶利",
+                "role": "导演",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/c09f29d99ee228ee2ff9f6643412f53b.jpg"
+            }, {
+                "name": "肖央",
+                "role": "李维杰",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/3ce5eeb8f056391d655c2d0a6ec35675.jpg"
+            }, {
+                "name": "谭卓",
+                "role": "阿玉",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/91384e9861e3cc355394fd119fd656d0.jpg"
+            }, {
+                "name": "陈冲",
+                "role": "拉韫",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/c83f0f3160cc9dae2f1c927b0ebd32dc.jpg"
+            }, {
+                "name": "姜皓文",
+                "role": "都彭",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/81da96af324b1b95074fce77f3162d6a.jpg"
+            }],
+            "director": "柯汶利",
+            "category": "剧情|犯罪",
+            "synopsis": "李维杰（肖央 饰）与妻子阿玉（谭卓 饰）打拼多年，膝下育有两个女儿。一个雨夜，一场意外，打破了这个家庭的宁静。而李维杰作为一个父亲，为了保全自己的家人，他不顾一切地决定瞒天过海……",
+            "filmType": {
+                "name": "2D",
+                "value": 1
+            },
+            "nation": "中国大陆",
+            "language": "",
+            "videoId": "",
+            "premiereAt": 1576195200,
+            "timeType": 3,
+            "runtime": 112,
+            "grade": "7.9",
+            "item": {
+                "name": "2D",
+                "type": 1
+            },
+            "isPresale": true,
+            "isSale": false
+        }, {
+            "filmId": 5033,
+            "name": "灭绝",
+            "poster": "https://pic.maizuo.com/usr/movie/f65323cc17100fea4e8d08c5b52dc618.jpg",
+            "actors": [{
+                "name": "丽兹·卡潘",
+                "role": "Alice",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/9a6e7a23ef4a63e66a5f41e406a11c95.jpg"
+            }, {
+                "name": "艾玛·布斯",
+                "role": "Samantha",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/7704ccd5558637ec8c6fd9451be9ef67.jpg"
+            }, {
+                "name": "本·杨格尔",
+                "role": "导演",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/c81f7952c1b3697f7e6791fe541e4278.jpg"
+            }, {
+                "name": "本·扬",
+                "role": "导演",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/74a96ea36f628fb618441281661c29bb.jpg"
+            }, {
+                "name": "迈克尔·佩纳",
+                "role": "Peter",
+                "avatarAddress": "https://pic.maizuo.com/usr/movie/2750cc6cde9af1cc0bca2865d7bb2a83.jpg"
+            }],
+            "director": "本·杨格尔|本·扬",
+            "category": "科幻|惊悚|悬疑",
+            "synopsis": "丽兹·卡潘([惊天魔盗团2])将加盟科幻新片[灭绝]，该片将由本·杨执导，[降临]的编剧埃里克·海瑟尔负责撰写剧本。迈克尔·佩纳([警戒结束])将担任该片男主角，片中他是一个经常梦到失去家庭的人。丽兹·卡潘在电影中出演佩纳的妻子，他们将一同在外星生物入侵时保护自己的家庭。",
+            "filmType": {
+                "name": "2D",
+                "value": 1
+            },
+            "nation": "美国",
+            "language": "",
+            "videoId": "",
+            "premiereAt": 1579305600,
+            "timeType": 3,
+            "runtime": 95,
+            "grade": "7",
+            "item": {
+                "name": "2D",
+                "type": 1
+            },
+            "isPresale": true,
+            "isSale": false
+        }],
+        "total": 7
+    },
+    "msg": "ok"
+}

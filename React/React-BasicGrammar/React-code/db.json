@@ -1,0 +1,415 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": 123456,
+      "roleName": "超级管理员",
+      "roleState": true,
+      "default": true,
+      "roleType": 3
+    },
+    {
+      "username": "bbbc1",
+      "password": "123",
+      "roleName": "超级管理员",
+      "roleType": 3,
+      "roleState": true,
+      "id": 3
+    },
+    {
+      "username": "ccc",
+      "password": "111",
+      "roleName": "超级管理员",
+      "roleType": 3,
+      "roleState": true,
+      "id": 4
+    },
+    {
+      "username": "111",
+      "password": "1111",
+      "roleName": "管理员",
+      "roleType": 2,
+      "roleState": true,
+      "id": 5
+    },
+    {
+      "username": "1111",
+      "password": "1111",
+      "roleName": "小编",
+      "roleType": 1,
+      "roleState": true,
+      "id": 6
+    }
+  ],
+  "roles": [
+    {
+      "id": 1,
+      "roleName": "超级管理员",
+      "roleRight": [
+        {
+          "category": "文章管理",
+          "list": [
+            "文章列表",
+            "创建文章",
+            "文章预览",
+            "文章分类"
+          ]
+        },
+        {
+          "category": "用户管理",
+          "list": [
+            "用户列表",
+            "添加用户",
+            "删除用户",
+            "修改用户"
+          ]
+        },
+        {
+          "category": "权限管理",
+          "list": [
+            "角色列表",
+            "权限列表",
+            "添加角色",
+            "修改角色",
+            "删除角色"
+          ]
+        }
+      ],
+      "default": true
+    },
+    {
+      "id": 2,
+      "roleName": "管理员",
+      "roleRight": [
+        {
+          "category": "文章管理",
+          "list": [
+            "文章列表",
+            "创建文章",
+            "文章预览",
+            "文章分类"
+          ]
+        }
+      ],
+      "default": true
+    },
+    {
+      "id": 3,
+      "roleName": "小编",
+      "roleRight": [
+        {
+          "category": "文章管理",
+          "list": [
+            "文章列表",
+            "创建文章",
+            "文章预览"
+          ]
+        }
+      ],
+      "default": true
+    }
+  ],
+  "rights": [
+    {
+      "id": 1,
+      "title": "文章列表",
+      "key": "文章管理-文章列表",
+      "grade": 1,
+      "category": "文章管理"
+    },
+    {
+      "id": 2,
+      "title": "创建文章",
+      "key": "文章管理-创建文章",
+      "grade": 1,
+      "category": "文章管理"
+    },
+    {
+      "id": 3,
+      "title": "文章预览",
+      "key": "文章管理-文章预览",
+      "grade": 1,
+      "category": "文章管理"
+    },
+    {
+      "id": 4,
+      "title": "文章分类",
+      "key": "文章管理-文章分类",
+      "grade": 2,
+      "category": "文章管理"
+    },
+    {
+      "id": 5,
+      "title": "用户列表",
+      "key": "用户管理-用户列表",
+      "grade": 3,
+      "category": "用户管理"
+    },
+    {
+      "id": 6,
+      "title": "添加用户",
+      "key": "用户管理-添加用户",
+      "grade": 3,
+      "category": "用户管理"
+    },
+    {
+      "id": 7,
+      "title": "删除用户",
+      "key": "用户管理-删除用户",
+      "grade": 3,
+      "category": "用户管理"
+    },
+    {
+      "id": 8,
+      "title": "修改用户",
+      "key": "用户管理-修改用户",
+      "grade": 3,
+      "category": "用户管理"
+    },
+    {
+      "id": 9,
+      "title": "角色列表",
+      "key": "权限管理-角色列表",
+      "grade": 3,
+      "category": "权限管理"
+    },
+    {
+      "id": 10,
+      "title": "权限列表",
+      "key": "权限管理-权限列表",
+      "grade": 3,
+      "category": "权限管理"
+    },
+    {
+      "id": 11,
+      "title": "添加角色",
+      "key": "权限管理-添加角色",
+      "grade": 3,
+      "category": "权限管理"
+    },
+    {
+      "id": 12,
+      "title": "修改角色",
+      "key": "权限管理-修改角色",
+      "grade": 3,
+      "category": "权限管理"
+    },
+    {
+      "id": 13,
+      "title": "删除角色",
+      "key": "权限管理-删除角色",
+      "grade": 3,
+      "category": "权限管理"
+    }
+  ],
+  "categories": [
+    {
+      "title": "IT",
+      "value": "IT",
+      "id": 11,
+      "default": true,
+      "grade": 1,
+      "children": [
+        {
+          "title": "前端",
+          "value": "前端",
+          "id": 111,
+          "default": true,
+          "grade": 2,
+          "children": [
+            {
+              "title": "Vue",
+              "value": "Vue",
+              "id": 1111,
+              "default": true,
+              "grade": 3
+            },
+            {
+              "title": "React",
+              "value": "React",
+              "id": 1112,
+              "default": true,
+              "grade": 3
+            },
+            {
+              "title": "Angular",
+              "value": "Angular",
+              "id": 1113,
+              "default": true,
+              "grade": 3
+            },
+            {
+              "title": "小程序",
+              "value": "小程序",
+              "id": 1114,
+              "default": true,
+              "grade": 3
+            }
+          ]
+        },
+        {
+          "title": "Java",
+          "value": "Java",
+          "id": 112,
+          "default": true,
+          "grade": 2,
+          "children": []
+        },
+        {
+          "title": "Python",
+          "value": "Python",
+          "id": 113,
+          "default": true,
+          "grade": 2,
+          "children": []
+        },
+        {
+          "title": "PHP",
+          "value": "PHP",
+          "id": 114,
+          "default": true,
+          "grade": 2,
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": "娱乐",
+      "value": "娱乐",
+      "id": 12,
+      "default": true,
+      "grade": 1,
+      "children": [
+        {
+          "title": "明星",
+          "value": "明星",
+          "id": 121,
+          "default": true,
+          "grade": 2,
+          "children": []
+        },
+        {
+          "title": "电影",
+          "value": "电影",
+          "id": 122,
+          "default": true,
+          "grade": 2,
+          "children": [
+            {
+              "title": "华语",
+              "value": "华语",
+              "id": 1221,
+              "default": true,
+              "grade": 3
+            },
+            {
+              "title": "欧美",
+              "value": "欧美",
+              "id": 1222,
+              "default": true,
+              "grade": 3
+            },
+            {
+              "title": "日韩",
+              "value": "日韩",
+              "id": 1223,
+              "default": true,
+              "grade": 3
+            },
+            {
+              "title": "美图",
+              "value": "美图",
+              "id": 1224,
+              "default": true,
+              "grade": 3
+            },
+            {
+              "title": "影评",
+              "value": "影评",
+              "id": 1225,
+              "default": true,
+              "grade": 3
+            }
+          ]
+        },
+        {
+          "title": "星座",
+          "value": "星座",
+          "id": 123,
+          "default": true,
+          "grade": 2,
+          "children": []
+        }
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "title": "111",
+      "category": [
+        "IT",
+        "Java"
+      ],
+      "content": "<p>1111</p>\n",
+      "author": "admin",
+      "roleType": 3,
+      "id": 3
+    },
+    {
+      "title": "1111",
+      "category": [
+        "娱乐",
+        "星座"
+      ],
+      "content": "<p>1111111111111</p>\n",
+      "author": "admin",
+      "roleType": 3,
+      "id": 4
+    },
+    {
+      "title": "2226666",
+      "category": [
+        "娱乐",
+        "明星"
+      ],
+      "content": "<p>😍哈哈哈哈哈😀</p>\n<ol>\n<li>1111</li>\n<li>22222</li>\n<li>33333</li>\n</ol>\n",
+      "author": "admin",
+      "roleType": 3,
+      "id": 5
+    },
+    {
+      "title": "2223",
+      "category": [
+        "IT",
+        "PHP"
+      ],
+      "content": "<p>😍哈哈哈哈哈😂1111😂</p>\n",
+      "author": "admin",
+      "roleType": 3,
+      "id": 6
+    },
+    {
+      "title": "111",
+      "category": [
+        "娱乐",
+        "星座"
+      ],
+      "content": "<p style=\"text-align:center;\"><span style=\"color: rgb(97,189,109);\">11111</span></p>\n",
+      "author": "111",
+      "roleType": 2,
+      "id": 7
+    },
+    {
+      "title": "1111",
+      "category": [
+        "IT",
+        "Java"
+      ],
+      "content": "<p>犯得上犯得上发射点</p>\n",
+      "author": "bbbc1",
+      "roleType": 3,
+      "id": 9
+    }
+  ]
+}
