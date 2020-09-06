@@ -2,7 +2,7 @@
 
 <a name="SL7hu"></a>
 # 前言
-刚入前端是先接触的 React，后面遇到的项目都是 Vue，就把 React 忘了个彻底，直到现在要开始写 Taro 了~，这篇就是根据当时学习 React 过程记录下的笔记，因为当时笔记记的非常凌乱，再加上有道云笔记的目录非常不友好，所以重新整理成了这篇发布出来，很久没写过，所以如果存在错误的地方请留言，我会及时更改。<br />![React.jpg](https://cdn.nlark.com/yuque/0/2020/jpeg/2312578/1599385358685-eeedfc7a-fdb6-4dcc-9496-bb106aa684d5.jpeg#align=left&display=inline&height=714&margin=%5Bobject%20Object%5D&name=React.jpg&originHeight=714&originWidth=1747&size=692860&status=done&style=none&width=1747)
+刚入前端是先接触的 React，后面遇到的项目都是 Vue，就把 React 忘了个彻底，直到现在要开始写 Taro 了~，这篇就是根据当时学习 React 过程记录下的笔记，因为当时笔记记的非常凌乱，再加上有道云笔记的目录非常不友好，所以重新整理成了这篇发布出来，很久没写过，所以如果存在错误的地方请留言，我会及时更改~<br />github地址：[ReactJs基础与实战.md](https://github.com/halfsouli/KnowledgeSummary/blob/master/React/React-BasicGrammar/ReactJs%E5%9F%BA%E7%A1%80%E4%B8%8E%E5%AE%9E%E6%88%98.md) 喜欢的点个 Star 吧~<br />![React.jpg](https://cdn.nlark.com/yuque/0/2020/jpeg/2312578/1599385358685-eeedfc7a-fdb6-4dcc-9496-bb106aa684d5.jpeg#align=left&display=inline&height=714&margin=%5Bobject%20Object%5D&name=React.jpg&originHeight=714&originWidth=1747&size=692860&status=done&style=none&width=1747)
 <a name="zlP6z"></a>
 # 环境搭建
 ```javascript
@@ -1291,9 +1291,10 @@ const usePrebiewDate = (props)=>{
 ```
 <a name="TenyR"></a>
 # 实战 
-文章管理的后台管理系统——地址<br />
-
+文章管理的后台管理系统——地址<br />![projext2.png](https://cdn.nlark.com/yuque/0/2020/png/2312578/1599387798164-e60aa965-f9dd-4334-b84b-9b02f053129b.png#align=left&display=inline&height=586&margin=%5Bobject%20Object%5D&name=projext2.png&originHeight=586&originWidth=1460&size=62954&status=done&style=none&width=1460)
 <a name="KR2yE"></a>
+# ![project1.png](https://cdn.nlark.com/yuque/0/2020/png/2312578/1599387892043-86267be8-5244-4988-a2f5-8a5d50169c5a.png#align=left&display=inline&height=675&margin=%5Bobject%20Object%5D&name=project1.png&originHeight=675&originWidth=1863&size=32856&status=done&style=none&width=1863)
+<a name="0Yp31"></a>
 # 参考文章
 [React 中setState更新state何时同步何时异步？](https://www.jianshu.com/p/799b8a14ef96)<br />[全面掌握 React — useReducer](https://www.jianshu.com/p/14e429e29798)<br />
 <br />
