@@ -1,5 +1,5 @@
 # 前言
-教程会存在一些不全的情况，后续会持续更新，有疑问的地方可以加微信（halfsoulsummer）联系我，看到会及时回复
+有疑问的地方可以提出来，看到会及时回复
 <a name="LilP8"></a>
 # 启动
 ```typescript
@@ -19,6 +19,6 @@ cnpm   install    json-server   -save
 ```typescript
 json-server  --watch   db.json --port 8000
 ```
-**账号和密码：**<br />**
-账号：admin
-密码：123456
+**账号和密码**<br />**
+<br />账号：admin
+<br />密码：123456
