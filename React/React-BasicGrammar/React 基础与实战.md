@@ -1,14 +1,12 @@
-# ReactJs基础与实战
-
+# React 基础教程和实战
 <a name="SL7hu"></a>
-# 前言
-刚入前端是先接触的 React，后面遇到的项目都是 Vue，就把 React 忘了个彻底，直到现在要开始写 Taro 了~，这篇就是根据当时学习 React 过程记录下的笔记，因为当时笔记记的非常凌乱，再加上有道云笔记的目录非常不友好，所以重新整理成了这篇发布出来，很久没写过，所以如果存在错误的地方请留言，我会及时更改~<br />github地址：[ReactJs基础与实战.md](https://github.com/halfsouli/KnowledgeSummary/blob/master/React/React-BasicGrammar/ReactJs%E5%9F%BA%E7%A1%80%E4%B8%8E%E5%AE%9E%E6%88%98.md) 喜欢的点个 Star 吧~<br />![React.jpg](https://cdn.nlark.com/yuque/0/2020/jpeg/2312578/1599385358685-eeedfc7a-fdb6-4dcc-9496-bb106aa684d5.jpeg#align=left&display=inline&height=714&margin=%5Bobject%20Object%5D&name=React.jpg&originHeight=714&originWidth=1747&size=692860&status=done&style=none&width=1747)
+![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/25e2d59e76234f2d82345da450c9ad84~tplv-k3u1fbpfcp-zoom-1.image)
 <a name="zlP6z"></a>
 # 环境搭建
 ```javascript
-npm install -g create-react-app //安装
+npm install -g create-react-app //安装工具
 create-react-app + 项目名称 //创建项目
-npm start //重启
+npm start //启动项目
 ```
 <a name="Pco1C"></a>
 # 设计思想
@@ -22,13 +20,13 @@ JSX就是 Javascript 和 XML 结合的一种格式。React 发明了 JSX，利�
 ```javascript
 import './css/index.css'
 class App extends Component {
+ //将来 生命周期
     render() {
         var myname = 'anna' //不是状态
         var stylyobj = {
             background: 'red',
             fontSize: '30px'
-        }
-        //将来 生命周期
+        } 
         return (
             <div>
                 {10 + 20}--{myname}
@@ -51,9 +49,9 @@ class App extends Component {
 ```javascript
 import React from 'react'
 import { Component} from 'react'
-class Hello extends Component {
-    render() {
-        //将来 生命周期
+class Hello extends React.Component {
+//将来 生命周期
+    render() {        
         return (
             <div>111111
               <ul>
@@ -162,11 +160,32 @@ var obj2 = {
 ```
 <a name="qhM1t"></a>
 # 初始化状态和修改状态
+React 把组件看成是一个状态机（State Machines）。通过与用户的交互，实现不同状态，然后渲染 UI，让用户界面和数据保持一致。
+React 里，只需更新组件的 state，然后根据新的 state 重新渲染用户界面（不要操作 DOM）。
 <a name="1dLc2"></a>
-## 状态（state）
+## 状态的两种写法（state）
+第一种完整写法：
 ```javascript
 export default class App extends Component {
-    state={
+    constructor() {
+    super()
+    this.state = {
+         myname:'4567'
+    }
+  }
+    render() {
+        return (
+            <div>
+                {this.state.myname}
+            </div>
+        )
+    }
+}
+```
+第二种简写：这个写法 state 也是定义在了 constructor 中 
+```javascript
+export default class App extends Component {
+    state = {
         myname:'4567'
     }
     render() {
@@ -230,8 +249,6 @@ this.setState((prevState)=>{{
  {newlist} //使用变量
 ```
 <a name="f188d5c8"></a>
-# 
-
 
 <a name="170e705c"></a>
 # 通信
@@ -746,7 +763,7 @@ this.props.kerwinhitory.push(obj.key)
 # Redux
 Redux 主要用作应用状态的管理，即 Redux 用一个单独的常量状态树（对象）保持这一整个应用的状态，这个对象不能直接被改变。如果一些数据变化了，一个新的对象就会被创建（使用 action 和 reducers ）<br />Redux 的工作流程：
 
-![](https://cdn.nlark.com/yuque/0/2020/png/2312578/1599378706877-04eadf71-db73-4d4f-9d18-49befedf8547.png#align=left&display=inline&height=407&margin=%5Bobject%20Object%5D&originHeight=407&originWidth=797&size=0&status=done&style=none&width=797)<br />[图片来源](https://www.cnblogs.com/wendyw/p/10070663.html)
+![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/50a1d30830e247e48922ae69520d3874~tplv-k3u1fbpfcp-zoom-1.image)
 <a name="Hk8Ei"></a>
 ## 同步写法
 **store.js 文件：**
@@ -917,7 +934,7 @@ actionCreater = () => {
 ## 核心API-Reducer
 Reducer保证是纯函数<br />**纯函数**<br />1.对外界没有副作用的函数<br />2.同样的输入,得到同样的输出
 ```javascript
-var myname='kerwin'
+var myname='anna'
 function test(myname){
 myname='xiaoming'
 }
@@ -925,7 +942,7 @@ test(myname)
 ```
 **非纯函数:**
 ```javascript
-var myname='kerwin'
+var myname='anna'
 function test(){
 myname='xiaoming'
 }
@@ -1042,7 +1059,7 @@ export default connect(mapStateToprops,mapDispathToProps)(Right)
 <a name="ZOwGF"></a>
 # Redux和React-Redux关系
 <a name="dZEVe"></a>
-# ![Redux.png](https://cdn.nlark.com/yuque/0/2020/png/2312578/1599380500921-18c61dda-9663-4fbe-a28c-8cf553a12296.png#align=left&display=inline&height=281&margin=%5Bobject%20Object%5D&name=Redux.png&originHeight=281&originWidth=621&size=26414&status=done&style=none&width=621)
+![](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a7bedb95775e4bb5acc3876549ebc995~tplv-k3u1fbpfcp-zoom-1.image)
 <a name="6ciW5"></a>
 # mobx
 Mobx是一个功能强大，上手非常容易的状态管理工具。
@@ -1083,7 +1100,9 @@ rightList:[]
 1. mobox 并非单一的 store。可以多 store
 1. redux 默认以 javaScript 原生对象形式存储数据，而 mobx 可以用来观察对象
 
-**mobx 缺点**：<br />mobx提供的约定及模板代码很少，代码编写很自由，如果不做一些约定，比较容易导致团队代码风格不统一<br />相关中间件很少，逻辑层业务整合式问题<br />**遇到的bug**<br />**第一个bug:**<br />**![clipboard.png](https://cdn.nlark.com/yuque/0/2020/png/2312578/1599381769981-4a095ead-29c4-43a5-9822-cd38ac278420.png#align=left&display=inline&height=97&margin=%5Bobject%20Object%5D&name=clipboard.png&originHeight=97&originWidth=613&size=94152&status=done&style=none&width=613)**<br />**解决方案：**<br />取消观察
+**mobx 缺点**：<br />mobx提供的约定及模板代码很少，代码编写很自由，如果不做一些约定，比较容易导致团队代码风格不统一<br />相关中间件很少，逻辑层业务整合式问题<br />**遇到的bug**<br />**第一个bug:**<br />**
+![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/099487924c3243eda96a8579e8eaaabf~tplv-k3u1fbpfcp-zoom-1.image)
+**<br />**解决方案：**<br />取消观察
 ```javascript
 this.cancel = autorun(() => {
             this.setState({
@@ -1094,7 +1113,8 @@ this.cancel = autorun(() => {
         this.cancel()//取消观察
     }
 ```
-**第二个bug:**<br />**![bug2.png](https://cdn.nlark.com/yuque/0/2020/png/2312578/1599381934985-12a4747d-4fef-4257-a00f-6c7ff11ce739.png#align=left&display=inline&height=208&margin=%5Bobject%20Object%5D&name=bug2.png&originHeight=251&originWidth=470&size=27531&status=done&style=none&width=390)**<br />**解决方案：**<br />网速很慢的时候数据没有回来 ajax请求的数据没有回来
+**第二个bug:**<br />**
+![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/66b5fa3b96bc4cab833c9b01e4fe9bf2~tplv-k3u1fbpfcp-zoom-1.image)**<br />**解决方案：**<br />网速很慢的时候数据没有回来 ajax请求的数据没有回来
 ```javascript
 componentWillUnmount() {
         this.setState=()=>{}
@@ -1109,7 +1129,7 @@ _Hook_ 是 React 16.8 的新增特性。它可以让你在不编写 class 的�
 ```javascript
 import React,{useState}from 'react'
 export default function App() {
-    const [name, setName] = useState('kerwin')//初始值[状态，改变状态的方法]
+    const [name, setName] = useState('anna')//初始值[状态，改变状态的方法]
     const [age, setAge] = useState('12')//初始值[状态，改变状态的方法]
     return (
         <div>
@@ -1291,9 +1311,11 @@ const usePrebiewDate = (props)=>{
 ```
 <a name="TenyR"></a>
 # 实战 
-文章管理的后台管理系统——地址<br />![projext2.png](https://cdn.nlark.com/yuque/0/2020/png/2312578/1599387798164-e60aa965-f9dd-4334-b84b-9b02f053129b.png#align=left&display=inline&height=586&margin=%5Bobject%20Object%5D&name=projext2.png&originHeight=586&originWidth=1460&size=62954&status=done&style=none&width=1460)
+文章管理的后台管理系统——[地址](https://github.com/halfsouli/KnowledgeSummary/tree/master/React/React-BasicGrammar/React-demo-one)<br />
+关于项目一些逻辑会后续再更新~ 以上内容如果存在一些疑问的地方可以联系我~ 看到会及时回复
+![](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/579e9e8962504935a6f47a30edaf3735~tplv-k3u1fbpfcp-zoom-1.image)
 <a name="KR2yE"></a>
-# ![project1.png](https://cdn.nlark.com/yuque/0/2020/png/2312578/1599387892043-86267be8-5244-4988-a2f5-8a5d50169c5a.png#align=left&display=inline&height=675&margin=%5Bobject%20Object%5D&name=project1.png&originHeight=675&originWidth=1863&size=32856&status=done&style=none&width=1863)
+![](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/dfa19a0ea8684b5d9909c874136f7a75~tplv-k3u1fbpfcp-zoom-1.image)
 <a name="0Yp31"></a>
 # 参考文章
 [React 中setState更新state何时同步何时异步？](https://www.jianshu.com/p/799b8a14ef96)<br />[全面掌握 React — useReducer](https://www.jianshu.com/p/14e429e29798)<br />
