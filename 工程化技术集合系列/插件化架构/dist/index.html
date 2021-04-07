@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./eft-security-library.umd.js"></script>
+    <!-- <script src="https://cdn.bootcdn.net/ajax/libs/lodash.js/4.17.20/eft-security-library.js"></script> -->
+    <style>
+      body {
+        height: 500px;
+        position: relative;
+      }
+      #App, #App2 {
+        height: 500px;
+        width: 100%;
+        position: absolute!important;
+        top: 0;
+        left: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="App"></div>
+    <div id="App2"></div>
+    <button id="clear_all">清除水印</button>
+    <script>
+      const testRegisterPlugin = () => {
+        EftSecurityLibrary.register({
+          name: "leoo",
+          useValue: { getLeo: () => console.log("hello leo") },
+        });
+        const eftSecurity = new EftSecurityLibrary();
+        const securityPlugin = eftSecurity.getPlugin("leoo");
+        securityPlugin.getLeo();
+        console.log("testRegisterPlugin eftSecurity:", eftSecurity)
+      }
+
+      const testWaterMarkPlugin = () => {
+        // 1. 设置插件参数
+        const watermarkOptions = {
+          text: "Hello Eft-Security-Library",
+          color: "red",
+          container: "#App"
+        };
+
+        // 2. 初始化插件
+        const eftSecurity = new EftSecurityLibrary({ Watermark: watermarkOptions });
+
+        // 3. 获取插件
+        const { Watermark } = eftSecurity.pluginMap;
+
+        // 4. 挂载水印（第一层水印）
+        Watermark.mount(watermarkOptions);
+
+        // 5. 挂载水印（第二层水印）
+
+        const watermarkOptions2 = {
+            text: "abcdefghijklzabc",
+            container: "#App2",
+            y: 10,
+            fontSize: 16,
+            angle: -45,
+            color: '#000'
+        };
+
+        Watermark.mount(watermarkOptions2);
+
+        document.getElementById('clear_all').addEventListener('click', function(){
+          Watermark.unmount(['#App','#App2']);
+        })
+      }
+
+      const testIgnorePlugin = () => {
+        EftSecurityLibrary.ignore = ['Watermark'];
+        const eftSecurity = new EftSecurityLibrary();
+        console.log("testWaterMarkPlugin EftSecurityLibrary:", eftSecurity)
+      }
+
+      const testDevtoolsPlugin = (security) => {
+        const eftSecurity = new EftSecurityLibrary();
+        const { DevtoolsDetector } = eftSecurity.pluginMap;
+        const { addListener, launch } = DevtoolsDetector;
+        // 1.1 add listener
+        addListener((isOpen) => {
+          if (isOpen) {
+            location.href = "https://www.exexm.com/";
+          }
+        });
+        // 1.2 launch detect
+        launch();
+      }
+
+      const testRegisterOtherPlugin = () => {
+        EftSecurityLibrary.register({
+          name: "lodash",
+          useValue: _,
+        });
+        const eftSecurity = new EftSecurityLibrary();
+        const lodashPlugin = eftSecurity.getPlugin('lodash');
+      }
+
+
+      // testRegisterPlugin();
+      testWaterMarkPlugin();
+      // testIgnorePlugin();
+      // testDevtoolsPlugin();
+      // testRegisterOtherPlugin();
+
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+      "sourceMap": true,// 是否生成sourceMap（用于浏览器调试）
+      "noImplicitAny": false,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "declaration": false,// 是否生成声明文件
+      //"declarationDir": "./dist/types/",// 声明文件打包的位置
+      "declarationMap": false,// 是否生成声明文件map文件（便于调试）
+      "moduleResolution": "node",
+      "module": "esnext",
+      "target": "es5",// 转化成的目标语言
+      "baseUrl": "./",
+    },
+    "include": [  // 通过终端的task，会自动监视ts代码变化输出结果到dist中
+      "packages/**/*.ts"
+    ],// 要打包的文件
+    "exclude": [ // 排除那些文件不打包
+      "node_modules",
+      "*.test.ts"
+    ]
+}

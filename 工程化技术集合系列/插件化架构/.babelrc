@@ -1,0 +1,9 @@
+{
+  "presets": ["es2015"],
+  "plugins": [
+    "babel-plugin-add-module-exports",
+    "transform-object-assign",
+    "transform-remove-strict-mode",
+    "transform-class-properties"
+  ]
+}
